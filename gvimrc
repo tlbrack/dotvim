@@ -1,6 +1,3 @@
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
-
 " Colors and Fonts
 set guifont=Consolas:h14.00
 colorscheme railscasts
