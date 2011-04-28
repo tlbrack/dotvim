@@ -50,6 +50,11 @@ nmap <silent> <Leader>pm :NERDTreeMirror<CR>
 " Shift-tab to insert a hard tab
 imap <silent> <S-tab> <C-v><tab>
 
+" MAC Specific
+" Ctrl Direction for begining and end of line 
+map <C-Right> <End>
+map <C-Left> <Home>
+
 
 " extended matching
 runtime macros/matchit.vim
