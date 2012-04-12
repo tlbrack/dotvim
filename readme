@@ -1,0 +1,5 @@
+installing new plugins?  put them in bundle to use pathogen
+http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
+https://github.com/tpope/vim-pathogen
+http://www.allenwei.cn/tips-using-git-submodule-keep-your-plugin-up-to-date/
+http://longair.net/blog/2010/06/02/git-submodules-explained/
