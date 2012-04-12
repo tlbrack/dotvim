@@ -49,6 +49,8 @@ nmap <silent> <Leader>pt :NERDTreeToggle<CR>
 nmap <silent> <Leader>pm :NERDTreeMirror<CR>
 " Shift-tab to insert a hard tab
 imap <silent> <S-tab> <C-v><tab>
+" turn off higlights for last search
+nmap <silent> <Leader>n :nohl<CR>
 
 " MAC Specific
 " Ctrl Direction for begining and end of line 
