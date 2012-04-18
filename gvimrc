@@ -125,4 +125,5 @@ set nobackup
 set nowb
 set noswapfile
 
-
+" save as
+map <Leader>sa :browse confirm saveas<CR>
