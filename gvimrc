@@ -51,6 +51,9 @@ nmap <silent> <Leader>pm :NERDTreeMirror<CR>
 imap <silent> <S-tab> <C-v><tab>
 " turn off higlights for last search
 nmap <silent> <Leader>n :nohl<CR>
+" ctags reload for ruby+rvm
+map <Leader>rt :!ctags --extra=+f --exclude=.git --exclude=log -R * `rvm gemdir`/gems/*<CR><CR>
+
 
 " MAC Specific
 " Ctrl Direction for begining and end of line 
